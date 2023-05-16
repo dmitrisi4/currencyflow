@@ -311,6 +311,18 @@ img, video {
   z-index: 50;
 }
 
+.z-\[50px\] {
+  z-index: 50px;
+}
+
+.z-\[60px\] {
+  z-index: 60px;
+}
+
+.z-\[60\] {
+  z-index: 60;
+}
+
 .m-auto {
   margin: auto;
 }
@@ -378,16 +390,8 @@ img, video {
   display: block;
 }
 
-.\!inline-block {
-  display: inline-block !important;
-}
-
 .flex {
   display: flex;
-}
-
-.\!flex {
-  display: flex !important;
 }
 
 .\!inline-flex {
@@ -556,10 +560,6 @@ img, video {
 
 .gap-y-\[15px\] {
   row-gap: 15px;
-}
-
-.self-center {
-  align-self: center;
 }
 
 .overflow-hidden {
@@ -903,6 +903,7 @@ html, body {
 }
 
 .opened-menu {
+  z-index: 50;
   height: 100%;
   width: 100%;
   --tw-bg-opacity: 1;

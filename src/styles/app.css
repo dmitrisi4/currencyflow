@@ -34,7 +34,7 @@ html, body {
 }
 
 .opened-menu {
-	@apply !flex flex-col absolute top-0 right-0 bottom-0 left-0 h-full w-full bg-very-pale;
+	@apply !flex flex-col absolute top-0 right-0 bottom-0 left-0 z-50 h-full w-full bg-very-pale;
 }
 
 .opened-burger {
