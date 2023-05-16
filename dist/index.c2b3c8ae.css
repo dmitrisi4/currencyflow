@@ -738,6 +738,16 @@ img, video {
   text-align: center;
 }
 
+.\!text-lg {
+  font-size: 1.125rem !important;
+  line-height: 1.75rem !important;
+}
+
+.\!text-sm {
+  font-size: .875rem !important;
+  line-height: 1.25rem !important;
+}
+
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
@@ -756,11 +766,6 @@ img, video {
   line-height: 1.5rem;
 }
 
-.text-lg {
-  font-size: 1.125rem;
-  line-height: 1.75rem;
-}
-
 .text-sm {
   font-size: .875rem;
   line-height: 1.25rem;
@@ -774,16 +779,6 @@ img, video {
 .text-xs {
   font-size: .75rem;
   line-height: 1rem;
-}
-
-.\!text-lg {
-  font-size: 1.125rem !important;
-  line-height: 1.75rem !important;
-}
-
-.\!text-sm {
-  font-size: .875rem !important;
-  line-height: 1.25rem !important;
 }
 
 .font-bold {
@@ -845,6 +840,7 @@ html, body {
   color: #000;
   font-family: Inter, sans-serif;
   font-weight: 400;
+  scroll-behavior: smooth !important;
 }
 
 .font-opensans {
@@ -1329,14 +1325,6 @@ html, body {
   .md\:mx-auto {
     margin-left: auto;
     margin-right: auto;
-  }
-
-  .md\:ml-\[30px\] {
-    margin-left: 30px;
-  }
-
-  .md\:mt-0 {
-    margin-top: 0;
   }
 
   .md\:mt-\[25px\] {
