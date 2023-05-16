@@ -10,7 +10,7 @@ html, body {
 
 .font-opensans {
 	font-family: 'Open Sans', sans-serif;
-	}
+}
 
 .btn-general {
 	@apply block px-2 md:px-5 py-2.5 bg-lime-green rounded text-white font-bold whitespace-nowrap;
@@ -59,7 +59,7 @@ html, body {
 
 .show-el {
 	opacity: 0;
-	animation: showEl 0.9s 0.2s forwards;
+	animation: showEl 2s 0.2s forwards;
 	will-change: transform, opacity;
 }
 
@@ -133,6 +133,7 @@ html, body {
 .targetSelector.moveRight {
 	@apply -translate-x-40 transition-[transform,opacity] duration-300 opacity-0;
 	transition-delay: var(--anim-delay);
+	transition-duration: 2s;
 	will-change: transform, scale;
 }
 .targetSelector.moveRight.active {
@@ -142,6 +143,7 @@ html, body {
 .targetSelector.moveLeft {
 	@apply translate-x-40 transition-[transform,opacity] duration-300 opacity-0;
 	transition-delay: var(--anim-delay);
+	transition-duration: 2s;
 	will-change: transform, scale;
 }
 .targetSelector.moveLeft.active {
@@ -151,6 +153,7 @@ html, body {
 .targetSelector.moveBottom {
 	@apply -translate-y-40 transition-[transform,opacity] duration-300 opacity-0;
 	transition-delay: var(--anim-delay);
+	transition-duration: 2s;
 	will-change: transform, scale;
 }
 .targetSelector.moveBottom.active {
@@ -163,6 +166,7 @@ html, body {
 .targetSelector.moveRightSlow .plus-item-4  {
 	@apply -translate-x-40 transition-[transform,opacity] duration-300 opacity-0;
 	transition-delay: var(--anim-delay);
+	transition-duration: 2s;
 	will-change: transform, scale;
 }
 
@@ -184,6 +188,7 @@ html, body {
 .targetSelector.showItems .api-item-9 {
 	@apply scale-0 transition-[transform,opacity] duration-300 opacity-0;
 	transition-delay: var(--anim-delay);
+	transition-duration: 2s;
 	will-change: transform, scale;
 }
 
@@ -202,6 +207,7 @@ html, body {
 .targetSelector.moveUp {
 	@apply translate-y-40 transition-[transform,opacity] duration-300 opacity-0;
 	transition-delay: var(--anim-delay);
+	transition-duration: 1s;
 	will-change: transform, scale;
 }
 .targetSelector.moveUp.active {
