@@ -434,10 +434,6 @@ img, video {
   min-height: 221px;
 }
 
-.min-h-\[263px\] {
-  min-height: 263px;
-}
-
 .w-6 {
   width: 1.5rem;
 }
@@ -464,10 +460,6 @@ img, video {
 
 .min-w-\[140px\] {
   min-width: 140px;
-}
-
-.min-w-\[263px\] {
-  min-width: 263px;
 }
 
 .min-w-\[270px\] {
@@ -782,6 +774,16 @@ img, video {
 .text-xs {
   font-size: .75rem;
   line-height: 1rem;
+}
+
+.\!text-lg {
+  font-size: 1.125rem !important;
+  line-height: 1.75rem !important;
+}
+
+.\!text-sm {
+  font-size: .875rem !important;
+  line-height: 1.25rem !important;
 }
 
 .font-bold {
